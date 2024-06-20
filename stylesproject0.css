@@ -1,8 +1,10 @@
 .link{
+  /*height:28px;
+  width:300px;*/
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  float:right;
+  /*float:right;*/
 }
 
 
@@ -25,14 +27,12 @@
 
 
 .link1{
-  
-  text-decoration: none;
-  color: black;
+  height:28px;
+  width:300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
   float:right;
-  padding: 0px 10px 0px 10px;
-  margin-top: 10px;
-  height: 30px;
-  width:215px;  
 }
 
 
@@ -54,12 +54,12 @@
 }
 
 
-.logo{
+/*.logo{
   display: flex;
   align-items: center;
   justify-content:center;
   margin-left:155px ; 
-}
+}*/
 
 
 .buttons{
@@ -101,7 +101,9 @@
 }
 
 .centre{
-  display:block;
+  display:flex;
+  flex-direction: column;
+  text-align: center;
   justify-content: center;
   align-items: center;
   /*margin-top: 158px;*/
@@ -109,18 +111,21 @@
 
 
 .logo1{
-  border-color: rgb(217, 48, 37);
+  /*border-color: rgb(217, 48, 37);
   display: inline;
   font-family :Arial, sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   height: auto;
-  margin-left: 10px;
-  margin-top: 158px;
+  margin-left: 30px;
+  
   text-decoration-color:rgb(217, 48, 37);
   text-decoration-style: solid;
-  color:rgb(217, 48, 37) ;
+  color:rgb(217, 48, 37) ;*/
+  color: #d93025;
+  font-size: 20px;
+  margin: 25px 35px;
 }
 hr{
   color: rgb(183, 181, 181);
@@ -131,4 +136,19 @@ hr{
   justify-content: center;
   align-items: center;
   margin-top: 158px;
+}
+.line{
+  border-bottom: 1px solid #ebebeb;
+  height: 1px;
+  width:980px;
+}
+.heading{
+ font-size: 16px;
+ color:#333333;
+ margin: 25px 35px;
+}
+.logo2{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
 }
