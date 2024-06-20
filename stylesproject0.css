@@ -46,6 +46,7 @@
   align-items: center;
   justify-content:center;
   margin-top: 10px;
+  padding:0px 15px;
  
 
 }
@@ -190,4 +191,30 @@ hr{
     height: 25px;
     padding:1px 8px;
     border: 1px solid rgb(191, 189, 189);
+  }
+  .button{
+    margin: 10px 0px 10px 0px;
+    padding:0px 12px 0px 12px;
+    display: flex;
+    align-items: flex-start;
+    background-color:rgb(77, 144, 254);
+    border-radius: 2px;
+    border:1px solid;
+    height: 28px;
+    width:118px;
+    text-align: center;
+    padding-inline-end:12px;
+    padding-inline-start :12px;
+    border-color: rgb(54,119,223);
+    font-weight: 700;
+    height: 30px;
+    letter-spacing: normal;
+    line-height: 11px;
+    font-size: 11px;
+    color: rgb(255, 255, 255);
+    cursor: default;
+    font-family: Arial;
+    margin-left: 550px;
+    margin-top: 30px;
+ 
   }
